@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Practica1.Vistas.Inicio">
+    <ContentPage.Content>
+        <StackLayout>
+            <Grid  >
+                <Frame  >
+                    <Grid HorizontalOptions="Start" >
+                        <Label TextColor="#DE3C44" HorizontalTextAlignment="Center" FontAttributes="Bold" VerticalTextAlignment="Center" Grid.Row="0" Grid.Column="1"  Grid.ColumnSpan="2" FontSize="30">LARAGON</Label>
+                        <Image WidthRequest="800" Grid.Row="0" Grid.Column="0"  Source="Dragon. png"></Image>
+                    </Grid>
+                </Frame>
+
+                <Image Grid.Row="1" Source="Reporte.png" HeightRequest="80"  HorizontalOptions="CenterAndExpand" ></Image>
+                    <Label Grid.Row="2"  HorizontalOptions="CenterAndExpand"  Text="Mantenimientos"></Label>
+
+                <Image Grid.Row="3" Source="analitica.png" HeightRequest="80"  HorizontalOptions="CenterAndExpand" ></Image>
+                <Label Grid.Row="4"  HorizontalOptions="CenterAndExpand"  Text="Reportes"></Label>
+
+                <ImageButton BackgroundColor="White" Command="{Binding Programador}" Grid.Row="5" Source="programacion.png" HeightRequest="80"   HorizontalOptions="CenterAndExpand" ></ImageButton>
+                <Label Grid.Row="6"  HorizontalOptions="CenterAndExpand"  Text="Desarrollador"></Label>
+
+            </Grid>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

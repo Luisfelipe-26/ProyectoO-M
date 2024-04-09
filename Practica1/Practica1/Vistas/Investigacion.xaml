@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Practica1.Vistas.Investigacion">
+    <ContentPage.Content>
+        <StackLayout Padding="20">
+
+            <!-- Título de la encuesta -->
+            <Label Text="Investigación de mercado" 
+                   FontSize="Large" 
+                   FontAttributes="Bold" 
+                   HorizontalOptions="Center" 
+                   Margin="0,0,0,20" />
+
+            <!-- Pregunta 1 -->
+            <Label Text="¿Cuál es tu edad?" 
+                   Margin="0,0,0,10" />
+            <Entry Placeholder="Escribe aquí tu edad" 
+                   x:Name="EntryEdad" 
+                   Keyboard="Numeric" 
+                   Margin="0,0,0,20" />
+
+            <!-- Pregunta 2 -->
+            <Label Text="¿Qué producto o servicio utilizas con mayor frecuencia?" 
+                   Margin="0,0,0,10" />
+            <Entry Placeholder="Escribe aquí el producto o servicio" 
+                   x:Name="EntryProducto" 
+                   Margin="0,0,0,20" />
+
+            <!-- Pregunta 3 -->
+            <Label Text="¿Cuál es tu opinión sobre nuestro producto/servicio?" 
+                   Margin="0,0,0,10" />
+            <Editor Placeholder="Escribe aquí tu opinión" 
+                    x:Name="EditorOpinion" 
+                    HeightRequest="100" 
+                    Margin="0,0,0,20" />
+
+            <!-- Botón para enviar la encuesta -->
+            <Button Text="Enviar encuesta" 
+                
+                    HorizontalOptions="FillAndExpand" 
+                    BackgroundColor="#007BFF" 
+                    TextColor="White" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

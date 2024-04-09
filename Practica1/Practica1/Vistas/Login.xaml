@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Practica1.Vistas.Login">
+    <ContentPage.Content>
+        <StackLayout  BackgroundColor="White" >
+            <ScrollView >
+                <Grid BackgroundColor="White" Margin="30"
+                  Padding="20"
+                  
+                  RowSpacing="1"
+                  RowDefinitions="*,50,50,50,50,50,50,50,50,*">
+
+                    <Grid   Grid.Row="0"  Grid.Column="0"  WidthRequest="50">
+                        <Label  TextColor="#DE3C44" HorizontalTextAlignment="Center" FontAttributes="Bold" VerticalTextAlignment="Center" Grid.Row="0" Grid.Column="0" FontSize="30">LARAGON</Label>
+                    <Image   Grid.Row="0" Grid.Column="1" Source="Dragon. png"></Image>
+                    </Grid>
+                
+                <Label Grid.Row="1" Grid.Column="0" FontSize="18" FontAttributes="Bold">Usuario</Label>
+                    <Entry   Grid.Row="2" Grid.Column="0"    Text="{Binding username}"  Placeholder="Login"></Entry>
+                <Label Grid.Row="4" Grid.Column="0" FontSize="18" FontAttributes="Bold">Contraseña</Label>
+                    <Entry  Grid.Row="5" Grid.Column="0" IsPassword="True" Placeholder="Contraseña" Text="{Binding password}"></Entry>
+                    <Button Grid.Row="7" Grid.Column="0" Command="{Binding Entrar}"  Text="Entrar"></Button>
+                    <Button Grid.Row="8" Grid.Column="0" Command="{Binding Registrarse}"  Text="Registrarse"></Button>
+                <Image Grid.Row="9" Grid.Column="0" Source="foj.gif"  IsAnimationPlaying="True" ></Image>
+               
+            </Grid>
+            </ScrollView>
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "dgSpecHash": "yfnMyVXEVp+YoFSBslrpBez8pkdkUd5IaDnmfIrDhZOjCDpm4cpsbW8FivxiqHKJzIBfj6ugbL0bBIBYg/xm0Q==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Luis F\\source\\repos\\Practica1\\Practica1\\Practica1\\Practica1.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Luis F\\.nuget\\packages\\com.airbnb.xamarin.forms.lottie\\4.1.0\\com.airbnb.xamarin.forms.lottie.4.1.0.nupkg.sha512",
+    "C:\\Users\\Luis F\\.nuget\\packages\\firebaseauthentication.net\\3.7.2\\firebaseauthentication.net.3.7.2.nupkg.sha512",
+    "C:\\Users\\Luis F\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\Luis F\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\Luis F\\.nuget\\packages\\newtonsoft.json\\11.0.2\\newtonsoft.json.11.0.2.nupkg.sha512",
+    "C:\\Users\\Luis F\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\Luis F\\.nuget\\packages\\xamarin.essentials\\1.7.0\\xamarin.essentials.1.7.0.nupkg.sha512",
+    "C:\\Users\\Luis F\\.nuget\\packages\\xamarin.forms\\5.0.0.2196\\xamarin.forms.5.0.0.2196.nupkg.sha512"
+  ],
+  "logs": []
+}

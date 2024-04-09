@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Practica1.Vistas.Formacion">
+    <ContentPage.Content>
+        <StackLayout Padding="20">
+
+            <!-- Título del curso -->
+            <Label Text="Curso de Desarrollo de Aplicaciones Móviles" 
+                   FontSize="Large" 
+                   FontAttributes="Bold" 
+                   HorizontalOptions="Center" 
+                   Margin="0,0,0,20" />
+
+            <!-- Descripción del curso -->
+            <Label Text="Aprende a desarrollar aplicaciones móviles multiplataforma utilizando Xamarin.Forms. Este curso cubre los fundamentos del desarrollo de aplicaciones móviles, incluyendo la creación de interfaces de usuario, la gestión de datos y la implementación de funcionalidades avanzadas." 
+                   Margin="0,0,0,20" />
+
+            <!-- Precio del curso -->
+            <Label Text="Precio: $199" 
+                   FontSize="Medium" 
+                   FontAttributes="Bold" 
+                   HorizontalOptions="Center" 
+                   Margin="0,0,0,20" />
+
+            <!-- Botón para inscribirse -->
+            <Button Text="Inscribirse" 
+                 
+                    HorizontalOptions="FillAndExpand" 
+                    BackgroundColor="#007BFF" 
+                    TextColor="White" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Practica1.Vistas.InicioV2">
+
+    <ContentPage.Content>
+        <StackLayout>
+            <ScrollView>
+                <Grid RowDefinitions="100,auto,auto">
+                    <!-- Encabezado -->
+                    <Grid Grid.ColumnSpan="3">
+                        <Grid HorizontalOptions="Start">
+                            <Label TextColor="#DE3C44" HorizontalTextAlignment="Center" FontAttributes="Bold" VerticalTextAlignment="Center" Grid.Row="0" Grid.Column="1"  Grid.ColumnSpan="2" FontSize="30">LARAGON</Label>
+                            <Image WidthRequest="800" Grid.Row="0" Grid.Column="0"  Source="Dragon.png"></Image>
+                        </Grid>
+                    </Grid>
+
+                    <!-- Contenido -->
+                    <StackLayout Grid.Row="1" Grid.ColumnSpan="3" >
+                        <Grid>
+                            <Frame Grid.Row="0" Grid.Column="0"  BackgroundColor="#F0E3E3">
+                                <Frame.GestureRecognizers>
+                                    <TapGestureRecognizer Tapped="Evaluacion" />
+                                </Frame.GestureRecognizers>
+                                <Grid RowDefinitions="Auto,Auto,*">
+                                    <Image Grid.Row="0" HorizontalOptions="Center" WidthRequest="100" Source="libro.png" />
+                                    <Label Grid.Row="1" HorizontalOptions="Center" VerticalOptions="Center" HorizontalTextAlignment="Center" TextColor="Black" FontAttributes="Bold" >Evaluación del conocimiento</Label>
+                                    <Label Grid.Row="2"
+                                           HorizontalTextAlignment="Center"
+                                           VerticalTextAlignment="Center"
+       VerticalOptions="StartAndExpand" 
+       HorizontalOptions="StartAndExpand">Los tests se pueden usar para evaluar la comprensión de los participantes sobre un tema, como realizar cuestionarios o exámenes en contextos educativos.</Label>
+                                </Grid>
+                            </Frame>
+
+                            <Frame Grid.Row="0" Grid.Column="1" BackgroundColor="#F0E3E3">
+                                <Frame.GestureRecognizers>
+                                    <TapGestureRecognizer Tapped="Formacion" />
+                                </Frame.GestureRecognizers>
+                                <Grid RowDefinitions="Auto,Auto,*">
+                                    <Image Grid.Row="0" HorizontalOptions="Center" WidthRequest="100" Source="calidad.png" />
+                                    <Label Grid.Row="1" HorizontalOptions="Center" VerticalOptions="Center" HorizontalTextAlignment="Center" TextColor="Black" FontAttributes="Bold" >Formación y certificación</Label>
+                                    <Label  Grid.Row="2"
+                                           HorizontalTextAlignment="Center"
+                                           VerticalTextAlignment="Center"
+       VerticalOptions="StartAndExpand" 
+       HorizontalOptions="StartAndExpand">Los tests son valiosos para programas de formación y certificaciones, permitiendo a los participantes demostrar su competencia y obtener calificaciones reconocidas.</Label>
+                                </Grid>
+                            </Frame>
+                        </Grid>
+                    </StackLayout>
+
+                    <Grid Grid.Row="2" Grid.ColumnSpan="3" >
+                        <Frame Grid.Row="0" Grid.Column="0" BackgroundColor="#F0E3E3">
+                            <Frame.GestureRecognizers>
+                                <TapGestureRecognizer Tapped="Encuesta" />
+                            </Frame.GestureRecognizers>
+                            <Grid RowDefinitions="Auto,Auto,*">
+                                <Image Grid.Row="0" HorizontalOptions="Center" WidthRequest="100"  Source="estadistica.png" />
+                                <Label Grid.Row="1" HorizontalOptions="Center" VerticalOptions="Center" HorizontalTextAlignment="Center" TextColor="Black" FontAttributes="Bold" >Encuestas previas al evento</Label>
+                                <Label Grid.Row="2"
+                                           HorizontalTextAlignment="Center"
+                                           VerticalTextAlignment="Center"
+       VerticalOptions="StartAndExpand" 
+       HorizontalOptions="StartAndExpand">Las encuestas y sondeos pueden recoger las preferencias, expectativas y comentarios de los asistentes antes de un evento, ayudando a los organizadores a adaptar el contenido a formato en consecuencia.</Label>
+                            </Grid>
+                        </Frame>
+
+                        <Frame Grid.Row="0" Grid.Column="1" BackgroundColor="#F0E3E3">
+                            <Frame.GestureRecognizers>
+                                <TapGestureRecognizer Tapped="investigacion" />
+                            </Frame.GestureRecognizers>
+                            <Grid RowDefinitions="Auto,Auto,*">
+                                <Image Grid.Row="0" HorizontalOptions="Center" WidthRequest="100" Source="investigar.png" />
+                                <Label Grid.Row="1" HorizontalOptions="Center" VerticalOptions="Center" HorizontalTextAlignment="Center" TextColor="Black" FontAttributes="Bold" >Investigación de mercado</Label>
+                                <Label Grid.Row="2" 
+                                           HorizontalTextAlignment="Center"
+                                           VerticalTextAlignment="Center"
+       VerticalOptions="StartAndExpand" 
+       HorizontalOptions="StartAndExpand">Se pueden realizar encuestas para recoger opiniones e insights de un público objetivo, proporcionando datos valiosos para la investigación de mercado y la toma de decisiones.</Label>
+                            </Grid>
+                        </Frame>
+
+                        <Frame Grid.Row="0" Grid.Column="2" BackgroundColor="#F0E3E3" >
+                            <Frame.GestureRecognizers>
+                                <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped" />
+                            </Frame.GestureRecognizers>
+                            <Grid RowDefinitions="Auto,Auto,*">
+                                <Image Grid.Row="0" HorizontalOptions="Center" WidthRequest="100" Source="charla.png" />
+                                <Label Grid.Row="1" HorizontalOptions="Center" VerticalOptions="Center" HorizontalTextAlignment="Center" TextColor="Black" FontAttributes="Bold" >Comentarios y evaluaciones</Label>
+                                <Label Grid.Row="2" 
+                                           HorizontalTextAlignment="Center"
+                                           VerticalTextAlignment="Center"
+       VerticalOptions="StartAndExpand" 
+       HorizontalOptions="StartAndExpand">Las encuestas permiten a los participantes proporcionar comentarios y evaluaciones sobre eventos, cursos, productos o servicios, ayudando a los organizadores a mejorar y perfeccionar sus propuestas</Label>
+                            </Grid>
+                        </Frame>
+                    </Grid>
+                </Grid>
+            </ScrollView>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

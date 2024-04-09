@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Practica1.Vistas.Evaluacion">
+    <ContentPage.Content>
+        <StackLayout Padding="20">
+
+            <!-- Pregunta 1 -->
+            <Label Text="¿Cuál es la capital de Francia?" />
+            <Picker x:Name="PickerPregunta1">
+                <Picker.Items>
+                    <x:String>París</x:String>
+                    <x:String>Marsella</x:String>
+                    <x:String>Lyon</x:String>
+                </Picker.Items>
+            </Picker>
+
+            <!-- Pregunta 2 -->
+            <Label Text="¿Quién escribió 'Don Quijote de la Mancha'?" />
+            <Picker x:Name="PickerPregunta2">
+                <Picker.Items>
+                    <x:String>Miguel de Cervantes</x:String>
+                    <x:String>Gabriel García Márquez</x:String>
+                    <x:String>William Shakespeare</x:String>
+                </Picker.Items>
+            </Picker>
+
+            <!-- Pregunta 3 -->
+            <Label Text="¿Cuál es el resultado de 2 + 2?" />
+            <Picker x:Name="PickerPregunta3">
+                <Picker.Items>
+                    <x:String>3</x:String>
+                    <x:String>4</x:String>
+                    <x:String>5</x:String>
+                </Picker.Items>
+            </Picker>
+
+            <!-- Botón para enviar respuestas -->
+            <Button Text="Enviar respuestas"  />
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

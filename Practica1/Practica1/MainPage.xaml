@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:forms="clr-namespace:Lottie.Forms;assembly=Lottie.Forms" 
+             x:Class="Practica1.MainPage" >
+  
+    <StackLayout>
+        <Grid BackgroundColor="White" RowDefinitions="200,80,80,*" >
+            <Label TextColor="#DE3C44" HorizontalTextAlignment="Center" FontAttributes="Bold" VerticalTextAlignment="Center" Grid.Row="0" Grid.Column="0" FontSize="30">LARAGON</Label>
+            <Image Grid.Row="0" Grid.Column="1" Source="Dragon.png"/>
+            <Label Text="Bienvenido Amigo!" TextColor="Black" FontSize="30" FontAttributes="Bold" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" Grid.Row="1" Grid.ColumnSpan="2"></Label>
+            <ContentView Padding="10" Grid.Row="2" Grid.ColumnSpan="2" >
+                <Button Command="{Binding IRLOGIN}"  FontSize="20" FontAttributes="Bold" TextColor="White" BackgroundColor="#DE3C44" Text="INICIAR"></Button>
+            </ContentView>
+
+            <Frame Grid.Row="3" Grid.ColumnSpan="2">
+                <forms:AnimationView 
+    x:Name="animationView"
+    Animation="llamaspiso.json"
+    AutoPlay="True"
+    RepeatMode="Infinite"
+    VerticalOptions="FillAndExpand"
+    HorizontalOptions="FillAndExpand"
+                 HeightRequest="400"  />
+             
+            </Frame>
+        </Grid>
+    
+
+      
+           
+        
+    </StackLayout>
+
+</ContentPage>

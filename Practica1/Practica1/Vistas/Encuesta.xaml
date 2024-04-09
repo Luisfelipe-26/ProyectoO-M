@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Practica1.Vistas.Encuesta">
+    <ContentPage.Content>
+        <StackLayout Padding="20">
+
+            <!-- Título de la encuesta -->
+            <Label Text="Encuesta previa al evento" 
+                   FontSize="Large" 
+                   FontAttributes="Bold" 
+                   HorizontalOptions="Center" 
+                   Margin="0,0,0,20" />
+
+            <!-- Pregunta 1 -->
+            <Label Text="¿Cuáles son tus expectativas para este evento?" 
+                   Margin="0,0,0,10" />
+            <Entry Placeholder="Escribe aquí tus expectativas" 
+                   x:Name="EntryExpectativas" 
+                   Margin="0,0,0,20" />
+
+            <!-- Pregunta 2 -->
+            <Label Text="¿Qué temas te gustaría que se trataran durante el evento?" 
+                   Margin="0,0,0,10" />
+            <Editor Placeholder="Escribe aquí los temas que te interesan" 
+                    x:Name="EditorTemas" 
+                    HeightRequest="100" 
+                    Margin="0,0,0,20" />
+
+            <!-- Botón para enviar la encuesta -->
+            <Button Text="Enviar encuesta" 
+                  
+                    HorizontalOptions="FillAndExpand" 
+                    BackgroundColor="#007BFF" 
+                    TextColor="White" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

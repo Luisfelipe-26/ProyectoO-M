@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Practica1.Vistas.Comentario">
+    <ContentPage.Content>
+        <StackLayout Padding="20">
+
+            <!-- Título de la sección -->
+            <Label Text="Comentarios y Evaluaciones" 
+                   FontSize="Large" 
+                   FontAttributes="Bold" 
+                   HorizontalOptions="Center" 
+                   Margin="0,0,0,20" />
+
+            <!-- Campo para el comentario -->
+            <Label Text="Comentario:" 
+                   Margin="0,0,0,10" />
+            <Editor Placeholder="Escribe aquí tu comentario" 
+                    x:Name="EditorComentario" 
+                    HeightRequest="100" 
+                    Margin="0,0,0,20" />
+
+            <!-- Selector para la evaluación -->
+            <Label Text="Evaluación:" 
+                   Margin="0,0,0,10" />
+            <Slider x:Name="SliderEvaluacion" 
+                    Maximum="5" 
+                    Minimum="0" 
+                    Value="3" 
+                    Margin="0,0,0,20" />
+            <Label Text="{Binding Value, Source={x:Reference SliderEvaluacion}}" 
+                   HorizontalOptions="Center" 
+                   Margin="0,0,0,20" />
+
+            <!-- Botón para enviar el comentario y la evaluación -->
+            <Button Text="Enviar" 
+                  
+                    HorizontalOptions="FillAndExpand" 
+                    BackgroundColor="#007BFF" 
+                    TextColor="White" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
