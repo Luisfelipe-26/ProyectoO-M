@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Luis F\\source\\repos\\Practica1\\Practica1\\Practica1.iOS\\Practica1.iOS.csproj": {}
+    "C:\\Users\\Luis F\\Documents\\GitHub\\ProyectoO-M\\Practica1\\Practica1.iOS\\Practica1.iOS.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Luis F\\source\\repos\\Practica1\\Practica1\\Practica1.iOS\\Practica1.iOS.csproj": {
+    "C:\\Users\\Luis F\\Documents\\GitHub\\ProyectoO-M\\Practica1\\Practica1.iOS\\Practica1.iOS.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Luis F\\source\\repos\\Practica1\\Practica1\\Practica1.iOS\\Practica1.iOS.csproj",
+        "projectUniqueName": "C:\\Users\\Luis F\\Documents\\GitHub\\ProyectoO-M\\Practica1\\Practica1.iOS\\Practica1.iOS.csproj",
         "projectName": "Practica1.iOS",
-        "projectPath": "C:\\Users\\Luis F\\source\\repos\\Practica1\\Practica1\\Practica1.iOS\\Practica1.iOS.csproj",
+        "projectPath": "C:\\Users\\Luis F\\Documents\\GitHub\\ProyectoO-M\\Practica1\\Practica1.iOS\\Practica1.iOS.csproj",
         "packagesPath": "C:\\Users\\Luis F\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Luis F\\source\\repos\\Practica1\\Practica1\\Practica1.iOS\\obj\\",
+        "outputPath": "C:\\Users\\Luis F\\Documents\\GitHub\\ProyectoO-M\\Practica1\\Practica1.iOS\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
@@ -32,8 +32,8 @@
         "frameworks": {
           "xamarinios10": {
             "projectReferences": {
-              "C:\\Users\\Luis F\\source\\repos\\Practica1\\Practica1\\Practica1\\Practica1.csproj": {
-                "projectPath": "C:\\Users\\Luis F\\source\\repos\\Practica1\\Practica1\\Practica1\\Practica1.csproj"
+              "C:\\Users\\Luis F\\Documents\\GitHub\\ProyectoO-M\\Practica1\\Practica1\\Practica1.csproj": {
+                "projectPath": "C:\\Users\\Luis F\\Documents\\GitHub\\ProyectoO-M\\Practica1\\Practica1\\Practica1.csproj"
               }
             }
           }
@@ -54,6 +54,10 @@
             "FirebaseAuthentication.net": {
               "target": "Package",
               "version": "[3.7.2, )"
+            },
+            "FirebaseDatabase.net": {
+              "target": "Package",
+              "version": "[3.3.3, )"
             },
             "Xamarin.Essentials": {
               "target": "Package",
@@ -81,14 +85,14 @@
         }
       }
     },
-    "C:\\Users\\Luis F\\source\\repos\\Practica1\\Practica1\\Practica1\\Practica1.csproj": {
+    "C:\\Users\\Luis F\\Documents\\GitHub\\ProyectoO-M\\Practica1\\Practica1\\Practica1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Luis F\\source\\repos\\Practica1\\Practica1\\Practica1\\Practica1.csproj",
+        "projectUniqueName": "C:\\Users\\Luis F\\Documents\\GitHub\\ProyectoO-M\\Practica1\\Practica1\\Practica1.csproj",
         "projectName": "Practica1",
-        "projectPath": "C:\\Users\\Luis F\\source\\repos\\Practica1\\Practica1\\Practica1\\Practica1.csproj",
+        "projectPath": "C:\\Users\\Luis F\\Documents\\GitHub\\ProyectoO-M\\Practica1\\Practica1\\Practica1.csproj",
         "packagesPath": "C:\\Users\\Luis F\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Luis F\\source\\repos\\Practica1\\Practica1\\Practica1\\obj\\",
+        "outputPath": "C:\\Users\\Luis F\\Documents\\GitHub\\ProyectoO-M\\Practica1\\Practica1\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -134,6 +138,10 @@
             "FirebaseAuthentication.net": {
               "target": "Package",
               "version": "[3.7.2, )"
+            },
+            "FirebaseDatabase.net": {
+              "target": "Package",
+              "version": "[3.3.3, )"
             },
             "NETStandard.Library": {
               "suppressParent": "All",

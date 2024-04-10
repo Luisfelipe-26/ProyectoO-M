@@ -22,6 +22,6 @@
                 <Label Grid.Row="6"  HorizontalOptions="CenterAndExpand"  Text="Desarrollador"></Label>
 
             </Grid>
-        </StackLayout>
+        </StackLayout>l
     </ContentPage.Content>
 </ContentPage>

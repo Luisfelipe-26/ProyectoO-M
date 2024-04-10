@@ -65,6 +65,9 @@
     <PackageReference Include="FirebaseAuthentication.net">
       <Version>3.7.2</Version>
     </PackageReference>
+    <PackageReference Include="FirebaseDatabase.net">
+      <Version>3.3.3</Version>
+    </PackageReference>
     <PackageReference Include="Xamarin.Forms" Version="5.0.0.2196" />
     <PackageReference Include="Xamarin.Essentials" Version="1.7.0" />
   </ItemGroup>
