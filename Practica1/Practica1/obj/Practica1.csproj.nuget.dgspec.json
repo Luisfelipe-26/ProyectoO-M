@@ -60,7 +60,7 @@
             },
             "FirebaseDatabase.net": {
               "target": "Package",
-              "version": "[3.3.3, )"
+              "version": "[4.0.7, )"
             },
             "NETStandard.Library": {
               "suppressParent": "All",

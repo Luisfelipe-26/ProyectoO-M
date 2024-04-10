@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Practica1.Vistas;
+using System;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -10,7 +11,7 @@ namespace Practica1
         {
             InitializeComponent();
           
-            MainPage = new NavigationPage(new MainPage());
+            MainPage = new NavigationPage(new ClientesAdm());
 
         }
 
